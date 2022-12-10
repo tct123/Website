@@ -7,6 +7,9 @@ header a {
     font-family: 'Courier New', Courier, monospace;
     text-decoration: none;
     margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 header a:hover {
     text-decoration: underline;
