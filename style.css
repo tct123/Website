@@ -4,9 +4,18 @@ header {
 }
 
 header a {
+    font-family: 'Courier New', Courier, monospace;
     text-decoration: none;
-
+    margin-top: auto;
 }
 header a:hover {
     text-decoration: underline;
+    color: rgb(163, 33, 33);
+}
+header img {
+    size: 20px;
+    width: 100px;
+}
+header img:hover {
+    background-color: rgb(163, 33, 33);
 }
