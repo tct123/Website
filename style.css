@@ -4,7 +4,6 @@ header {
 }
 
 header a {
-    font-family: 'Courier New', Courier, monospace;
     text-decoration: none;
     margin-top: auto;
     display: flex;
@@ -24,6 +23,7 @@ header img:hover {
 }
 body {
     background-image: url("assets/img/background.jpg");
+    font-family: 'Courier New', Courier, monospace;
 }
 div {
     background-color: rgba(255, 255, 255, 0.466);
@@ -32,5 +32,5 @@ p {
     font-family: 'Courier New', Courier, monospace;
 }
 h1 {
-    font-family: 'Courier New', Courier, monospace;
+    
 }
