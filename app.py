@@ -5,7 +5,45 @@ app = Flask(__name__)
 def home():
     return html
 
-html = """
+style = """
+header {
+    height: 100px;
+    box-shadow: 10px 10px 18px 0px black;
+}
+
+header a {
+    text-decoration: none;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header a:hover {
+    text-decoration: underline;
+    color: rgb(163, 33, 33);
+}
+header img {
+    size: 20px;
+    width: 100px;
+}
+header img:hover {
+    background-color: rgb(163, 33, 33);
+}
+body {
+    background-image: url("assets/img/background.jpg");
+    font-family: 'Courier New', Courier, monospace;
+}
+div {
+    background-color: rgba(255, 255, 255, 0.466);
+}
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
+h1 {
+    
+}
+"""
+html = f"""
 <!DOCTYPE html>
 <html lang="de">
 <head>
@@ -13,8 +51,7 @@ html = """
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
-    <audio src="assets/sound/sound.mp3" autoplay></audio>
+    <style>{style}</style>
 </head>
 <body>
     <header>
