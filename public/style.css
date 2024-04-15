@@ -1,6 +1,7 @@
 header {
     height: 100px;
     box-shadow: 10px 10px 18px 0px black;
+    border-radius: 0.3cm;
 }
 
 header a {
@@ -32,8 +33,21 @@ body {
 
 div {
     background-color: rgba(255, 255, 255, 0.466);
+    border-radius: 0.3cm;
+    align-items: center;
 }
 
 p {
     font-family: 'Courier New', Courier, monospace;
+}
+iframe {
+    border-radius: 0.3cm;
+}
+.splitter {
+    display: flex;
+}
+.element {
+    flex: 1;
+    margin: auto;
+    height: 2cm;
 }
