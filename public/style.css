@@ -40,12 +40,15 @@ div {
 p {
     font-family: 'Courier New', Courier, monospace;
 }
+
 iframe {
     border-radius: 0.3cm;
 }
+
 .splitter {
     display: flex;
 }
+
 .element {
     flex: 1;
     margin: auto;
